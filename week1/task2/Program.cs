@@ -20,8 +20,8 @@ namespace task2
 
         public void PrintInfo()
         {
-            year++;
-            Console.WriteLine(name + " " + id + " " + year);
+            year++; //+1 year to 1
+            Console.WriteLine(name + " " + id + " " + year); //output name, id and year with year++ command
         } //method
     }
 
@@ -30,7 +30,7 @@ namespace task2
         static void Main(string[] args)
         {
             Student s = new Student("Aruzhan", "18BD110952");
-            s.PrintInfo();
+            s.PrintInfo(); //print info of s
         }
     }
 }

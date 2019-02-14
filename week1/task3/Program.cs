@@ -10,23 +10,28 @@ namespace task3
     {
         static void Main(string[] args)
         {
-            string line1 = Console.ReadLine(); //creating string value line1
-            string line2 = Console.ReadLine(); //creating string value line2
+            int n = int.Parse(Console.ReadLine()); //variable creation
 
-            int n = int.Parse(line1); //creating and converting line 1(which is a string) to integer
+            int[] arr1 = new int[n]; //creating an array of integer type
+            int[] arr2 = new int[n * 2]; //creating an array with int type (size * 2)
 
-            string[] nums = line2.Split(); //creating an array with elements of the string type in line2 and separating them through spaces
-
-            for (int i = 0; i < nums.Length; i++) //cycle creation for line2 array elements
+            string[] s = Console.ReadLine().Split(); //creating an array with elements of the string type and separating them through spaces
+            for (int i = 0; i < n; i++)
             {
-                int x = int.Parse(nums[i]); //converting element of string array and saving as element of integer array
-
-                for (int j = 0; j < 2; j++) //run through the cycle 
-                {
-                    Console.Write(x + " "); //output to the console 
-                }
-
+                arr1[i] = int.Parse(s[i]); //convert elements of string array s[i] and write as element of integer array
             }
+
+            int j = 0;
+            for (int i = 0; i < arr1.Length; i++)
+            {
+                arr2[j++] = arr1[i]; //output array values 2 times
+                arr2[j++] = arr1[i];
+            }
+            for (int i = 0; i < arr2.Length; i++)
+            {
+                Console.Write(arr2[i] + " "); //output elements of new array
+            }
+
         }
     }
 }

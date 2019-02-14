@@ -5,3 +5,10 @@ C:\Users\Лаура\Desktop\Programming Principles\PP2\week1\task4\bin\Debug\tas
 C:\Users\Лаура\Desktop\Programming Principles\PP2\week1\task4\bin\Debug\task4.pdb
 C:\Users\Лаура\Desktop\Programming Principles\PP2\week1\task4\obj\Debug\task4.exe
 C:\Users\Лаура\Desktop\Programming Principles\PP2\week1\task4\obj\Debug\task4.pdb
+C:\Users\Лаура\Desktop\PP2\week1\task4\bin\Debug\task4.exe.config
+C:\Users\Лаура\Desktop\PP2\week1\task4\bin\Debug\task4.exe
+C:\Users\Лаура\Desktop\PP2\week1\task4\bin\Debug\task4.pdb
+C:\Users\Лаура\Desktop\PP2\week1\task4\obj\Debug\task4.csprojAssemblyReference.cache
+C:\Users\Лаура\Desktop\PP2\week1\task4\obj\Debug\task4.csproj.CoreCompileInputs.cache
+C:\Users\Лаура\Desktop\PP2\week1\task4\obj\Debug\task4.exe
+C:\Users\Лаура\Desktop\PP2\week1\task4\obj\Debug\task4.pdb
